@@ -36,8 +36,8 @@ def preparation_time_in_minutes(number_of_layers):
         Parameters:
             number_of_layers (int): The number of layers in the lasagna
             
-        Retuens:
-            int: The tie required to prepare the number of ;ayers of lasagna
+        Returns:
+            int: The time required to prepare the number of layers of lasagna.
     """
     return number_of_layers*2
 # To avoid the use of magic numbers (see: https://en.wikipedia.org/wiki/Magic_number_(programming)), you should define a PREPARATION_TIME constant.
